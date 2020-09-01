@@ -186,10 +186,42 @@ header {
 
 #news article {
 	display: flex;
+	height: 50vh;
 }
 
 #news article:nth-child(odd) {
+	background-color: #222222;
 }
+
 #news article:nth-child(even) {
 	flex-direction: row-reverse;
+	background-color: #f3f3f3;
+	color: #222222;
+}
+
+#news article img {
+	width: 50%;
+}
+
+.news-block {
+	padding: 80px 120px;
+}
+
+.news-block time {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+.news-block p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.news-block h2 {
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	margin-top: 5px;
+	margin-bottom: 20px;
 }
