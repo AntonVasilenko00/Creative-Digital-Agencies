@@ -183,3 +183,13 @@ header {
 	font-size: 13px;
 	line-height: 1.6;
 }
+
+#news article {
+	display: flex;
+}
+
+#news article:nth-child(odd) {
+}
+#news article:nth-child(even) {
+	flex-direction: row-reverse;
+}
