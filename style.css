@@ -127,7 +127,7 @@ header {
 	font-size: 18px;
 }
 
-#heading {
+.heading {
 	margin-top: 25vh;
 	display: flex;
 	flex-direction: column;
