@@ -13,6 +13,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+p {
+	line-height: 24px;
+}
 #nav-links a {
 	margin-left: 20px;
 	font-size: 20px;
@@ -305,4 +308,58 @@ header {
 	font-weight: 300;
 	margin-left: 50px;
 	font-size: 15px;
+}
+
+#keyFeature {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 1600px;
+	max-height: 850px;
+	background: url(img/key-feature-bg.jpg);
+	padding: 5vh 0;
+}
+
+.keyFeature__inner {
+	width: 500px;
+	height: 400px;
+	/* margin: 220px 0px 0px 215px; */
+	padding: 15px;
+}
+
+.keyFeature__title {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.keyFeature__text {
+	margin: 40px 0 70px 0;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: left;
+}
+
+.keyFeature {
+	padding: 10px 15px;
+	margin-top: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: #11749e;
+}
+
+.keyFeature:first-child {
+	width: 70%;
+}
+
+.keyFeature:nth-child(2) {
+	width: 80%;
+}
+
+.keyFeature:nth-child(3) {
+	width: 90%;
 }
