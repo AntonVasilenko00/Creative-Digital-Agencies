@@ -363,3 +363,65 @@ header {
 .keyFeature:nth-child(3) {
 	width: 90%;
 }
+
+#team {
+	background-color: #fff;
+	padding: 0 0 50px 0;
+}
+#team .heading h1 {
+	color: #d7d7d7;
+}
+
+#team .heading h2 {
+	color: #222222;
+}
+
+.team__title {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: black;
+}
+
+.members {
+	margin: 70px 215px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	margin-left: 20px;
+}
+
+.member:first-child {
+	margin-left: 0;
+}
+
+.memberName {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #11749e;
+}
+
+.memberRole {
+	font-family: "Montserrat", sans-serif;
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.member-info {
+	transform: translateY(50%);
+	padding: 15px 25px;
+	position: absolute;
+	background-color: #fff;
+	z-index: 3;
+}
