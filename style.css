@@ -105,8 +105,8 @@ header {
 	justify-content: center;
 }
 #features {
+	padding-bottom: 135px;
 	display: flex;
-	margin-top: 20vh;
 	z-index: 2;
 }
 
@@ -117,7 +117,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* justify-content: center; */
+	justify-content: center;
 }
 
 .feature h3 {
@@ -127,33 +127,16 @@ header {
 	font-size: 18px;
 }
 
-.heading {
-	margin-top: 25vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+#about .heading {
+	margin-top: 5vh;
 }
 
 #about h1 {
 	color: #3c8daf;
-	font-family: "Roboto Condensed", sans-serif;
-	font-size: 250px;
-	/* padding-top: 100px; */
-	position: absolute;
-	line-height: 0.852;
-	z-index: 0;
 }
 
 #about h2 {
-	line-height: 1.2;
-	font-size: 40px;
-	z-index: 1;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	/* padding-top: 170px; */
-	/* padding-bottom: 100px; */
-	text-transform: uppercase;
+	color: white;
 }
 
 .icon-wrapper {
@@ -224,4 +207,102 @@ header {
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 20px;
+}
+
+#blogArea {
+	max-height: 1020px;
+	margin: 0;
+	background-color: #fff;
+	padding-bottom: 5vh;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading h1 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 250px;
+	z-index: 0;
+}
+
+.heading h2 {
+	position: absolute;
+	font-size: 37.55px;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+#blogArea .heading h1 {
+	margin-top: 5vh;
+	color: #d7d7d7;
+}
+
+#blogArea .heading h2 {
+	padding-top: 30px;
+	color: #222222;
+}
+
+.blogSubTitle {
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+.blogs {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 68px 215px;
+}
+.blog {
+	margin-left: 30px;
+	max-width: 270px;
+	text-align: center;
+}
+.blog:first-child {
+	margin-left: 0;
+}
+.blog h4 {
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	color: #11749e;
+	font-size: 18px;
+}
+
+.blog p {
+	margin-top: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 15px;
+}
+#quickAction {
+	display: flex;
+	justify-content: space-between;
+	background-color: #11749e;
+	padding: 100px 150px;
+}
+.quickAction__inner {
+	display: flex;
+	align-items: center;
+	max-width: 570px;
+}
+
+.quickAction__inner i {
+	transform: scale(5);
+}
+
+.quickAction__text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	margin-left: 50px;
+	font-size: 15px;
 }
