@@ -425,3 +425,49 @@ header {
 	background-color: #fff;
 	z-index: 3;
 }
+
+#contactArea {
+	background: url(img/contact-bg.jpg);
+}
+
+#contactArea .heading h1 {
+	opacity: 18%;
+}
+#contactArea .heading h2 {
+}
+
+#contactForm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 200px;
+	color: black;
+}
+
+#contactForm input,
+#contactForm textarea {
+	background: transparent;
+	border: 1px solid white;
+}
+
+#contactForm input {
+	width: 370px;
+	height: 50px;
+	/* padding: 15px; */
+	/* margin-left: 10px; */
+}
+
+#contactForm input:first-child {
+	margin-left: 0;
+}
+
+#contactForm textarea {
+	width: 100%;
+}
+
+#contactForm button {
+}
+input[type="text"]::-webkit-input-placeholder {
+	/* color: #ccc; */
+}
